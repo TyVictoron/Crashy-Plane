@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		103DC7701D8058BA00E17FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103DC76F1D8058BA00E17FAA /* AppDelegate.swift */; };
+		103DC7721D8058BA00E17FAA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 103DC7711D8058BA00E17FAA /* GameScene.sks */; };
+		103DC7741D8058BA00E17FAA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103DC7731D8058BA00E17FAA /* GameScene.swift */; };
+		103DC7761D8058BA00E17FAA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103DC7751D8058BA00E17FAA /* GameViewController.swift */; };
+		103DC7791D8058BA00E17FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103DC7771D8058BA00E17FAA /* Main.storyboard */; };
+		103DC77B1D8058BA00E17FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103DC77A1D8058BA00E17FAA /* Assets.xcassets */; };
+		103DC77E1D8058BA00E17FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103DC77C1D8058BA00E17FAA /* LaunchScreen.storyboard */; };
+		103DC7891D8058BA00E17FAA /* Dont_Drop_The_NukeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103DC7881D8058BA00E17FAA /* Dont_Drop_The_NukeTests.swift */; };
+		103DC7941D8058BA00E17FAA /* Dont_Drop_The_NukeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103DC7931D8058BA00E17FAA /* Dont_Drop_The_NukeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		103DC7851D8058BA00E17FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 103DC7641D8058BA00E17FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 103DC76B1D8058BA00E17FAA;
+			remoteInfo = "Dont Drop The Nuke";
+		};
+		103DC7901D8058BA00E17FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 103DC7641D8058BA00E17FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 103DC76B1D8058BA00E17FAA;
+			remoteInfo = "Dont Drop The Nuke";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		103DC76C1D8058BA00E17FAA /* Dont Drop The Nuke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dont Drop The Nuke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		103DC76F1D8058BA00E17FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		103DC7711D8058BA00E17FAA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		103DC7731D8058BA00E17FAA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		103DC7751D8058BA00E17FAA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		103DC7781D8058BA00E17FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		103DC77A1D8058BA00E17FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		103DC77D1D8058BA00E17FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		103DC77F1D8058BA00E17FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103DC7841D8058BA00E17FAA /* Dont Drop The NukeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dont Drop The NukeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		103DC7881D8058BA00E17FAA /* Dont_Drop_The_NukeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dont_Drop_The_NukeTests.swift; sourceTree = "<group>"; };
+		103DC78A1D8058BA00E17FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103DC78F1D8058BA00E17FAA /* Dont Drop The NukeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dont Drop The NukeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		103DC7931D8058BA00E17FAA /* Dont_Drop_The_NukeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dont_Drop_The_NukeUITests.swift; sourceTree = "<group>"; };
+		103DC7951D8058BA00E17FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		103DC7691D8058BA00E17FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103DC7811D8058BA00E17FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103DC78C1D8058BA00E17FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103DC7631D8058BA00E17FAA = {
+			isa = PBXGroup;
+			children = (
+				103DC76E1D8058BA00E17FAA /* Dont Drop The Nuke */,
+				103DC7871D8058BA00E17FAA /* Dont Drop The NukeTests */,
+				103DC7921D8058BA00E17FAA /* Dont Drop The NukeUITests */,
+				103DC76D1D8058BA00E17FAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		103DC76D1D8058BA00E17FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				103DC76C1D8058BA00E17FAA /* Dont Drop The Nuke.app */,
+				103DC7841D8058BA00E17FAA /* Dont Drop The NukeTests.xctest */,
+				103DC78F1D8058BA00E17FAA /* Dont Drop The NukeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		103DC76E1D8058BA00E17FAA /* Dont Drop The Nuke */ = {
+			isa = PBXGroup;
+			children = (
+				103DC76F1D8058BA00E17FAA /* AppDelegate.swift */,
+				103DC7711D8058BA00E17FAA /* GameScene.sks */,
+				103DC7731D8058BA00E17FAA /* GameScene.swift */,
+				103DC7751D8058BA00E17FAA /* GameViewController.swift */,
+				103DC7771D8058BA00E17FAA /* Main.storyboard */,
+				103DC77A1D8058BA00E17FAA /* Assets.xcassets */,
+				103DC77C1D8058BA00E17FAA /* LaunchScreen.storyboard */,
+				103DC77F1D8058BA00E17FAA /* Info.plist */,
+			);
+			path = "Dont Drop The Nuke";
+			sourceTree = "<group>";
+		};
+		103DC7871D8058BA00E17FAA /* Dont Drop The NukeTests */ = {
+			isa = PBXGroup;
+			children = (
+				103DC7881D8058BA00E17FAA /* Dont_Drop_The_NukeTests.swift */,
+				103DC78A1D8058BA00E17FAA /* Info.plist */,
+			);
+			path = "Dont Drop The NukeTests";
+			sourceTree = "<group>";
+		};
+		103DC7921D8058BA00E17FAA /* Dont Drop The NukeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				103DC7931D8058BA00E17FAA /* Dont_Drop_The_NukeUITests.swift */,
+				103DC7951D8058BA00E17FAA /* Info.plist */,
+			);
+			path = "Dont Drop The NukeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		103DC76B1D8058BA00E17FAA /* Dont Drop The Nuke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103DC7981D8058BA00E17FAA /* Build configuration list for PBXNativeTarget "Dont Drop The Nuke" */;
+			buildPhases = (
+				103DC7681D8058BA00E17FAA /* Sources */,
+				103DC7691D8058BA00E17FAA /* Frameworks */,
+				103DC76A1D8058BA00E17FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dont Drop The Nuke";
+			productName = "Dont Drop The Nuke";
+			productReference = 103DC76C1D8058BA00E17FAA /* Dont Drop The Nuke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		103DC7831D8058BA00E17FAA /* Dont Drop The NukeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103DC79B1D8058BA00E17FAA /* Build configuration list for PBXNativeTarget "Dont Drop The NukeTests" */;
+			buildPhases = (
+				103DC7801D8058BA00E17FAA /* Sources */,
+				103DC7811D8058BA00E17FAA /* Frameworks */,
+				103DC7821D8058BA00E17FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				103DC7861D8058BA00E17FAA /* PBXTargetDependency */,
+			);
+			name = "Dont Drop The NukeTests";
+			productName = "Dont Drop The NukeTests";
+			productReference = 103DC7841D8058BA00E17FAA /* Dont Drop The NukeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		103DC78E1D8058BA00E17FAA /* Dont Drop The NukeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103DC79E1D8058BA00E17FAA /* Build configuration list for PBXNativeTarget "Dont Drop The NukeUITests" */;
+			buildPhases = (
+				103DC78B1D8058BA00E17FAA /* Sources */,
+				103DC78C1D8058BA00E17FAA /* Frameworks */,
+				103DC78D1D8058BA00E17FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				103DC7911D8058BA00E17FAA /* PBXTargetDependency */,
+			);
+			name = "Dont Drop The NukeUITests";
+			productName = "Dont Drop The NukeUITests";
+			productReference = 103DC78F1D8058BA00E17FAA /* Dont Drop The NukeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		103DC7641D8058BA00E17FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Xision;
+				TargetAttributes = {
+					103DC76B1D8058BA00E17FAA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					103DC7831D8058BA00E17FAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 103DC76B1D8058BA00E17FAA;
+					};
+					103DC78E1D8058BA00E17FAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 103DC76B1D8058BA00E17FAA;
+					};
+				};
+			};
+			buildConfigurationList = 103DC7671D8058BA00E17FAA /* Build configuration list for PBXProject "Dont Drop The Nuke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 103DC7631D8058BA00E17FAA;
+			productRefGroup = 103DC76D1D8058BA00E17FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				103DC76B1D8058BA00E17FAA /* Dont Drop The Nuke */,
+				103DC7831D8058BA00E17FAA /* Dont Drop The NukeTests */,
+				103DC78E1D8058BA00E17FAA /* Dont Drop The NukeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		103DC76A1D8058BA00E17FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103DC7721D8058BA00E17FAA /* GameScene.sks in Resources */,
+				103DC77E1D8058BA00E17FAA /* LaunchScreen.storyboard in Resources */,
+				103DC77B1D8058BA00E17FAA /* Assets.xcassets in Resources */,
+				103DC7791D8058BA00E17FAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103DC7821D8058BA00E17FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103DC78D1D8058BA00E17FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		103DC7681D8058BA00E17FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103DC7741D8058BA00E17FAA /* GameScene.swift in Sources */,
+				103DC7761D8058BA00E17FAA /* GameViewController.swift in Sources */,
+				103DC7701D8058BA00E17FAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103DC7801D8058BA00E17FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103DC7891D8058BA00E17FAA /* Dont_Drop_The_NukeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103DC78B1D8058BA00E17FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103DC7941D8058BA00E17FAA /* Dont_Drop_The_NukeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		103DC7861D8058BA00E17FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 103DC76B1D8058BA00E17FAA /* Dont Drop The Nuke */;
+			targetProxy = 103DC7851D8058BA00E17FAA /* PBXContainerItemProxy */;
+		};
+		103DC7911D8058BA00E17FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 103DC76B1D8058BA00E17FAA /* Dont Drop The Nuke */;
+			targetProxy = 103DC7901D8058BA00E17FAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		103DC7771D8058BA00E17FAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				103DC7781D8058BA00E17FAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		103DC77C1D8058BA00E17FAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				103DC77D1D8058BA00E17FAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		103DC7961D8058BA00E17FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		103DC7971D8058BA00E17FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		103DC7991D8058BA00E17FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dont Drop The Nuke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XisionStudios.Dont-Drop-The-Nuke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		103DC79A1D8058BA00E17FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dont Drop The Nuke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XisionStudios.Dont-Drop-The-Nuke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		103DC79C1D8058BA00E17FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Dont Drop The NukeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XisionStudios.Dont-Drop-The-NukeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dont Drop The Nuke.app/Dont Drop The Nuke";
+			};
+			name = Debug;
+		};
+		103DC79D1D8058BA00E17FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dont Drop The NukeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XisionStudios.Dont-Drop-The-NukeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dont Drop The Nuke.app/Dont Drop The Nuke";
+			};
+			name = Release;
+		};
+		103DC79F1D8058BA00E17FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Dont Drop The NukeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XisionStudios.Dont-Drop-The-NukeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dont Drop The Nuke";
+			};
+			name = Debug;
+		};
+		103DC7A01D8058BA00E17FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dont Drop The NukeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XisionStudios.Dont-Drop-The-NukeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dont Drop The Nuke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		103DC7671D8058BA00E17FAA /* Build configuration list for PBXProject "Dont Drop The Nuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103DC7961D8058BA00E17FAA /* Debug */,
+				103DC7971D8058BA00E17FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		103DC7981D8058BA00E17FAA /* Build configuration list for PBXNativeTarget "Dont Drop The Nuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103DC7991D8058BA00E17FAA /* Debug */,
+				103DC79A1D8058BA00E17FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		103DC79B1D8058BA00E17FAA /* Build configuration list for PBXNativeTarget "Dont Drop The NukeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103DC79C1D8058BA00E17FAA /* Debug */,
+				103DC79D1D8058BA00E17FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		103DC79E1D8058BA00E17FAA /* Build configuration list for PBXNativeTarget "Dont Drop The NukeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103DC79F1D8058BA00E17FAA /* Debug */,
+				103DC7A01D8058BA00E17FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 103DC7641D8058BA00E17FAA /* Project object */;
+}
